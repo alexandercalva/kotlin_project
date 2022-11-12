@@ -2,29 +2,28 @@
 
 Program in Kotlin that demonstrates the following:  Variables (mutable and immutable)  Expressions  Conditionals  Loops  Functions  Classes
 
-{Provide a description the software that you wrote to demonstrate the Kotlin language.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
+Design a program that has a parent class called "Material" that allows the user to enter any type of writing.
+This class will have as class members "author, title and year of publication". It will also have classes children "Book,
+Article and Brochure, whose member data are:
+* Book : publisher
+* Article: newspaper, section, and date
+* Brochure: theme and editorial
+The class "Subjects" is derived from the class "Book" and indicates the specialization of the book, e.g. digital,
+packages, mathematics, etc.
 
 [Software Demo Video](https://youtu.be/PBUS6IFKIkI)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+* Visual Studio Code
+* IntelliJ IDEA 2022.2.3 (Community Edition)
+* JDK
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [How to run kotlin in Visual Studio Code](https://www.youtube.com/watch?v=A7nnx267pkw)
+* [Kotlin installer](https://github.com/JetBrains/kotlin/releases/tag/v1.7.20)
+* [JDK](https://openjdk.org/)
 
 # Future Work
-
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+Create this project oriented towards a mobile application for the Android operating system.
